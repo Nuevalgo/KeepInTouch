@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:background="#E3E3E8">
+    
+    
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@+id/contact_name"
+        android:paddingLeft="10dp"
+        android:textColor="#2F2F31"
+        android:textSize="18px" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/contacted_since"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="3 days"
+        android:layout_centerVertical="true"
+         android:textColor="#373738"       
+        android:textSize="15px" >
+    </TextView>
+
+</RelativeLayout>
